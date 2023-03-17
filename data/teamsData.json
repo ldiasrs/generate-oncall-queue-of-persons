@@ -1,0 +1,58 @@
+{
+"queueTeamsOnCall": [ "yellow", "blue", "red"],
+ "teams" : [
+    { 
+     "name": "red",
+     "persons" : [
+         {
+             "name": "Person Red A",
+             "lastOncallDate": "2022-11-07",
+             "ignore" : true,
+             "ignoreJustification": "vacations"
+         },
+         {
+             "name": "Person Red B",
+             "lastOncallDate": "2022-11-30"
+         },
+         {
+             "name": "Person Red C",
+             "lastOncallDate": "2022-08-24"
+         }
+     ]
+    },
+    { 
+     "name": "blue",
+     "persons" : [
+         {
+            "name": "Person Blue A",
+             "lastOncallDate": "2022-11-16"
+         },
+         {
+            "name": "Person Blue B",
+             "lastOncallDate": "2022-10-07"
+         },
+         {
+            "name": "Person Blue C",
+             "lastOncallDate": "2022-11-09"
+         }
+     ]
+    },
+    { 
+     "name": "yellow",
+     "persons" : [
+         {
+            "name": "Person yellow A",
+             "lastOncallDate": "2022-11-09"
+         },
+         {
+            "name": "Person yellow B",
+             "lastOncallDate": "2023-02-27"
+         },
+         {
+            "name": "Person yellow C",
+             "lastOncallDate": "2022-10-10"
+         }
+     ]
+    }
+ ]
+}
