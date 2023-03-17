@@ -1,6 +1,8 @@
 # On call queue tool
 
-- This script helps to create a queue of on call persons
+- Teams information are stored on data folder
+- There you can create the teams that will handle the OnCall and set the last on call date
+- This script helps to create a queue of next on call persons
 - It is based in one available persons per team and a team rotation FIFO
 - It is possible to ignore some persons to not be eligible (set ignore=true on data file)
 - The idea is create a queue considering the last date on call and team rotation
